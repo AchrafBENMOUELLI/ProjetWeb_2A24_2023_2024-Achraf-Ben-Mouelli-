@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>
+            Inscription.html
+        </title>
+    </head>
+    <body>
+        <header>
+            <a href="C:/Users/Achraf/Desktop/2A24/atelier_1_html.html">Home</a>
+            <a href="">Projets et taches</a>
+            <a href="">Liste employés</a>
+            <a href="C:\Users\Achraf\Desktop\2A24\inscription.html">Inscription</a>
+            <hr>
+            <p><img src="C:\Users\Achraf\Desktop\tennis ball.png" alt="img1" height="650" width="1450"></p>
+        </header>
+        <section align="center">
+                <h1>Inscription au site</h1>
+            <div>
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" required minlength="2" size="10" pattern="[A-Za-zÀ-ÖØ-öø-ÿ\s']+" title="Veuillez entrer un nom valide (lettres uniquement)">
+                <br><br>
+            </div>
+            
+            <div>
+                <label for="Prénom">Prénom:</label>
+                <input type="text" id="Prénom" Prénom="Prénom" required minlength="2" size="10" pattern="[A-Za-zÀ-ÖØ-öø-ÿ\s']+" title="Veuillez entrer un nom valide (lettres uniquement)">
+                <br><br>
+            </div>
+
+            <div>
+                <label for="Email">Email:</label>
+                <input type="email" id="Email" placeholder="contact@exemple.com" Email="Email" required minlength="2" size="16">
+                <br><br>
+            </div>
+
+            <div>
+                <label for="Telephone">Telephone:</label>
+                <input type="tel" id="Telephone" Telephone="Telephone" required pattern="[0-9]{8}" title="Le numéro de téléphone doit contenir exactement 8 chiffres" size="10">
+                <br><br>
+            </div>
+
+            <div>
+                <label for="Date de naissance">Date de naissance:</label>
+                <input type="date" id="Date de naissance" Date de naissance="Date de naissance" size="10">
+                <br><br>
+            </div>
+
+            <div>
+                <label for="Mot de passe">Mot de passe:</label>
+                <input type="password" id="Mot de passe" Mot de passe="Mot de passe" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$" title="Le mot de passe doit contenir au moins 8 caractères, incluant au moins un chiffre, une lettre minuscule et une lettre majuscule" size="10">
+                <br><br>
+            </div>
+
+            <div>
+                <input type="submit" value="s'inscrire">
+            </div>
+        </section>
+        
+        <footer>
+            <hr>
+            <p>Vous pouvez nous contacter par email:<a href="">contact@esprit.tn</a></p>
+            <p>Adresse : Ghazela,Tunis</p>
+       </footer>
+    </body>
+</html>
