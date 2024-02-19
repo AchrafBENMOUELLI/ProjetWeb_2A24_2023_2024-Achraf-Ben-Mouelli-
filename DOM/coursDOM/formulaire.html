@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>
+
+        </title>
+    </head>
+    <body onload="loadB()">
+
+        <!--<button onclick="verification()"></button>-->
+        <button id="btn" onclick="verification()">cliquer</button>
+        <button>valider</button>
+        <p>Qu'est ce qu'un evenement?</p>
+
+
+        <form id="a7a" name="a7tin">
+            <label>Login</label>
+            <input type="text" name="" id="log" class="gawk" value="">
+            <label>Password</label>
+            <input type="password" name="" id="" class="gawk">
+            <input type="submit" value="Valider">
+            <input type="reset" value="Annuler">
+        </form>
+        
+        <script>
+            var boutton=document.getElementById('btn');
+            boutton.addEventListener('click',verification());
+
+           /* var login=document.getElementById('log').value;
+            var resultat=document.getElementsByClassName('gawk');
+            console.log(resultat);
+            var balise=document.getElementsByTagName('input');
+            console.log(balise);
+
+            var login=document.get
+            alert(login);*/
+           function verification()
+            {
+                alert("boutton de verification");
+            }
+            function loadB()
+            {
+                console.log("loading....")
+            }
+        </script>
+    </body>
+</html>
