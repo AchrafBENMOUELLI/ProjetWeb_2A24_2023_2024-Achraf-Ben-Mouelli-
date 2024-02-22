@@ -76,9 +76,13 @@
                 var dateactuelle= new Date();
                 var datedonnée= new Date(datenaissance);
 
-                if (datedonnée > dateactuelle)
+                if (datedonnée >= dateactuelle)
                 {
-                    alert("la date de naissance ne peut pas etre dans le futur dumpass!!");
+                    alert("la date de naissance ne peut pas etre dans le futur!!");
+                }
+                else
+                {
+                    alert("la date est valide");
                 }
 
             }

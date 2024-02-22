@@ -1,0 +1,5 @@
+exercice 3:
+4) on remarque que les informations qu'on a ecrit s'affiche au niveau de l'URL.
+5) si on enleve l'attribut name il s'affiche une erreur donc la methode get s'execute en utilisant le name et pas un autre attribut.
+6) rien ne s'affcihe au niveau du tableau et le code genere des erruers.
+9) la methode "get" et le lien entre le fichier html et fichier php donc si on enleve la methode la formulaire ne sera jamais envoyer vers le server.
