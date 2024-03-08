@@ -103,6 +103,6 @@ class employer
     }
 }
 //$personne1=new employer();
-$personne2=new employer("achraf","benmouelli","23112003","99810007","benmouelliachraf@gmail.com","23/11/2003");
-$personne2->afficher();
+/*$personne2=new employer("achraf","benmouelli","23112003","99810007","benmouelliachraf@gmail.com","23/11/2003");
+$personne2->afficher();*/
 ?>
